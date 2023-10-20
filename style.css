@@ -1,0 +1,611 @@
+                                                                                   /* Estilos genéricos */
+
+*{
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: rgb(90, 90, 90);
+    
+}
+
+.fuente-clara {color: #eeeeee;}
+
+.fuente-oscura {color: #d8e704;}
+
+.fuente-acento {color: #312200;
+                font-size: 50px;
+                text-shadow: 1px  0px 0px rgb(255, 255, 255),
+                0px  1px 0px rgb(255, 253, 253),
+               -1px  0px 0px rgb(255, 255, 255),
+                0px -1px 0px rgb(255, 255, 255);
+                text-align: center;
+}
+
+nav ul li a{
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px  0px 0px rgb(255, 255, 255),
+    0px  1px 0px rgb(255, 253, 253),
+   -1px  0px 0px rgb(255, 255, 255),
+    0px -1px 0px rgb(255, 255, 255);
+    font-size: 30px;
+    display: block;
+    padding: 0.5rem 1rem;
+    
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 80px;
+    line-height: 65px;
+    
+    
+}
+
+
+
+nav a:hover {
+    color: #304dcf;
+}
+
+.Sección-Principal img {
+    display: flex;
+  justify-content: center;
+}
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: red;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+
+
+                                                                                 /*Estilos Top*/
+ 
+
+
+header {
+    background-color: rgb(92, 92, 92);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eeeeee;
+    padding: 20px 0;
+    height: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.titulo {
+    color: black;
+    letter-spacing: 5px;
+    font-size: 50px;
+    text-shadow: 1px  0px 0px rgb(255, 255, 255),
+                0px  1px 0px rgb(255, 253, 253),
+               -1px  0px 0px rgb(255, 255, 255),
+                0px -1px 0px rgb(255, 255, 255);
+}
+
+.titulo-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+header nav {
+    float: right;
+    margin: 30px;
+  
+}
+
+.menu-icon {
+        display: none;
+
+}
+
+
+
+                                                                                            /*Estilos Centro*/
+
+
+
+main {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: #eeeeee;
+    padding-top: 12rem;
+    
+
+}
+.Sobre-Mí {
+    padding: 20px 5px;
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#sobremi {
+    padding: 20px 5px;
+    text-align: center;
+    padding-top: 20rem;
+    margin-bottom: 30px;
+    color: #312200;
+                font-size: 50px;
+                text-shadow: 1px  0px 0px rgb(255, 255, 255),
+                0px  1px 0px rgb(255, 253, 253),
+               -1px  0px 0px rgb(255, 255, 255),
+                0px -1px 0px rgb(255, 255, 255);
+   
+}
+main section img {
+    margin: auto;
+    justify-content: center;
+
+}  
+
+.parrafo1 {
+    display: inline-block;
+    text-align: center;
+    margin: 100px;
+    padding: 10px;
+    font-style: oblique;
+    font-size: 30px;
+    line-height: 1.3em;
+    width: 85%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+section img.fotozeze {
+    width: 500px;
+    height: 600;
+
+}
+
+.Sección-Principal img {
+    width: 300px;
+    height: 700px;
+    margin-bottom: 120px;
+    padding: 20px;
+}
+
+.banner {
+    background-image: url(IMG/banner.jpg);
+   
+}
+
+
+
+
+.titulotrabajo {
+    font-size: 50px;
+    padding: 20px 5px;
+    text-align: center;
+    padding-top: 20rem;
+    margin-bottom: 80px;
+    margin-top: -300px;
+    color: #312200;
+                font-size: 50px;
+                text-shadow: 1px  0px 0px rgb(255, 255, 255),
+                0px  1px 0px rgb(255, 253, 253),
+               -1px  0px 0px rgb(255, 255, 255),
+                0px -1px 0px rgb(255, 255, 255);
+}
+
+#trabajos1 {
+    display: inline-flex;
+
+}
+
+.logo1 {
+    width: 500px;
+    height: 500px;  
+    padding-left: 80px;
+    padding-right: -100px;  
+    margin-left: 40px;
+}
+
+.Ira {
+    width: 400px;
+    height: 400px;
+}
+
+.articulo {
+    display: inline-block; /* Hacer que los elementos se muestren en línea */
+    vertical-align: top; /* Alinear los elementos en la parte superior */
+    margin: 10px; /* Agregar espacio entre los elementos */
+
+}
+
+#iravideo {
+    padding-left: 500px;
+}
+
+.final {
+    display: inline-block;
+    text-align: center;
+    margin: 50px;
+    padding: 80px;
+    font-style: oblique;
+    font-size: 30px;
+    line-height: 1.3em;
+    width: 85%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.greeting {
+    margin-top: 200px;
+}
+
+
+
+
+                                                                                 /*Estilos pie de pagina*/
+
+
+footer {
+    background-color: rgb(156, 156, 156);
+    margin-bottom: 0px;
+    padding: 5px;
+    width: 100%;
+    clear: both;
+    margin-top: 40px;
+    
+
+}
+
+footer #formulario {
+
+    padding-top: 20px;
+    margin-top: 20px;
+    top: 50px;
+
+}
+
+h2.Consultas {
+    padding: 20px;
+    font-size: 50PX;
+    color: #000000;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-left: 150px;
+    color: #383838;
+    font-size: 50px;
+    text-shadow: 1px  0px 0px rgb(#312200),
+                0px  1px 0px rgb(#312200),
+               -1px  0px 0px rgb(#312200),
+                0px -1px 0px rgb(#312200);
+   
+    
+}
+
+.Redes {
+    color: #312200;
+                font-size: 50px;
+                text-shadow: 1px  0px 0px rgb(255, 255, 255),
+                0px  1px 0px rgb(255, 253, 253),
+               -1px  0px 0px rgb(255, 255, 255),
+                0px -1px 0px rgb(255, 255, 255);
+                text-align: center;
+}
+
+ 
+
+.copiright {
+    text-align: center;
+    width: 1730px;
+    padding-left: 170px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#contacto {
+text-align: center;
+line-height: 100px;
+margin: 30px;
+padding: 50px;
+}
+
+#contacto ul li {
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    margin: 30px;
+    padding: 0 4px;
+    }
+
+
+input {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+                                                                    /* ------------- Campos del Formulario ------------- */
+
+.form-final {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    
+  }
+
+#formulario .fuente-acento {
+    margin-bottom: 20px;
+    text-shadow: 1px  0px 0px rgb(41, 41, 41),
+                0px  1px 0px rgb(41, 41, 41),
+               -1px  0px 0px rgb(41, 41, 41),
+                0px -1px 0px rgb(41, 41, 41);
+
+margin-left: 270px;
+}
+  
+  .form-final input[type="text"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+
+  .form-final input[type="email"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+
+  .form-final textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 300px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }  
+  
+  
+  .form-final label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+
+  #formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 10px;
+    width: 50%;
+    padding: 80px;
+    margin: 480px;
+    padding-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+#enviar {
+    margin-left: 350px;
+}
+
+
+
+
+
+                                                            /*---------------------------queris media-----------------------------*/
+
+
+
+
+@media (max-width: 768px) {
+
+#header ul {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #312200;
+    text-align: center;
+    top: 200px;
+    left: 100%;
+    transition: all 0.5s;
+}
+
+#check:checked ~ ul {
+    left: 0%;
+    display: block;
+}
+
+#check:checked ~ .checkbtn {
+    color: #304dcf;
+}
+
+#header nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+   
+}
+#header nav ul li  {
+    align-items: center;
+    font-size: 20px;
+};
+
+nav ul li a{
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px  0px 0px rgb(255, 255, 255),
+    0px  1px 0px rgb(255, 253, 253),
+   -1px  0px 0px rgb(255, 255, 255),
+    0px -1px 0px rgb(255, 255, 255);
+    font-size: 30px;
+    display: block;
+    padding: 0.5rem 0;
+    
+}
+
+.checkbtn {
+    display: block;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+    line-height: 30px;
+    
+}
+
+#trabajos1 {
+    display: flow-root;
+}
+
+.articulo {
+
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    margin: 10px;
+    padding: 80px;
+    border-radius: 30px;
+    width: 100%;
+    padding-right: -120px;
+}
+
+
+
+
+.logo1 {
+    width: 600px;
+    height: 600px;  
+    margin-left: -90px;
+    margin-bottom: -10px;
+  
+}
+
+img.Alma {
+    border-radius: 30px;
+    
+   
+}
+
+.articulo {
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    margin: 10px;
+    padding: 80px;
+    border-radius: 30px;
+    width: 100%;
+    padding-right: -120px;
+    
+}
+.copiright {
+    width: 180px;
+    text-align: justify;
+}
+   
+.ulbar.active li {
+    height: 10vh;
+    padding-top: 60px;
+}
+
+
+                                                           /*----------------footer-----------------------------*/
+
+.contacto1 {
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    margin: 10px;
+    padding: 80px;
+    border-radius: 30px;
+    width: 100%;
+    padding-right: -120px;
+}
+
+
+
+
+                                                             /* ------------- Campos del Formulario ------------- */
+
+.form-final {
+    width: 420px;
+
+  }  
+
+
+#formulario {
+
+    width: 50px;
+    padding: 20px;
+   
+    margin: 100px;
+    padding-right: 500px;
+  }
+
+.fuente-acento {margin-bottom: 40px;
+margin-left: 150px;
+font-size: 40px;
+
+}
+#formulario div {
+    margin-left: 30px;
+}
+
+#enviar {
+    margin-left: 220px;
+}
+
+#trabajos1 .fuente-acento {
+    margin-left: 20px;
+}
+
+
+.greeting {
+    float: left;
+   
+}
+
+
+    
+}
